@@ -206,7 +206,7 @@ main > section{
   } 
   
   #card_contant{
-  border: 2px solid #FF900E;
+  border: 1px solid #FF900E;
   border-radius: 8px;
   text-align: center;
   align-items: center;
@@ -229,7 +229,6 @@ main > section{
 /* Sponspor_aera style */
 .Sponspor_info{
   margin-bottom: 50px;
-  border: 1px solid red;
   text-align: center;
 }
 
