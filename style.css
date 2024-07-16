@@ -73,11 +73,8 @@ header{
 }
 .banner_img{
   width: 100%;
-  transition: 0.5s;
 }
-.banner_img:hover{
-  width: 1390px;
-}
+
 
 /* team and feature related styles */
 
@@ -119,6 +116,10 @@ main > section{
 .our-features{
     margin-left: 130px;
     max-width: 530px;
+}
+
+#team_btn, .features_description{
+  margin-top: 32px;
 }
 
 
