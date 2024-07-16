@@ -68,10 +68,15 @@ header{
   font-weight: 600;
   border: none;
   color: #fff;
+ 
 
 }
 .banner_img{
   width: 100%;
+  transition: 0.5s;
+}
+.banner_img:hover{
+  width: 1390px;
 }
 
 /* team and feature related styles */
@@ -110,10 +115,190 @@ main > section{
   gap: 24px;
   
 }
+
 .our-features{
     margin-left: 130px;
     max-width: 530px;
 }
+
+
+/* feature-style */
+.features{
+  display: flex;
+  width: 1240px;
+  gap: 140px;
+  margin: 0 auto;
+  margin-top: 120px;
+  margin-bottom: 130px;
+}
+
+#feature-section-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+    font-size: 35px;
+    margin-bottom: 24px;
+    font-weight: 700;
+}
+
+.feature-card{
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+}
+
+.feature-card .feature-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.feature_description{
+  font-size: 16px;
+  color: #727272; 
+}
+
+.feature_img{
+  width: 100%;
+}
+#experience_year{
+    font-size: 1rem;
+    font-weight: 700;
+}
+#experience_badge{
+    padding: 20px 30px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -100px;
+    margin-top: -120px;
+}
+
+/* <!-- some facts area --> */
+.fact_container{
+  margin-bottom: 100px;
+  text-align: left;
+}
+.fact_title{
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.fact_description{
+  font-size: 16px;
+   color: #727272;
+   line-height: 26px;
+}
+
+/* facts area style */
+
+.card_container{
+ width: 1140px;
+ margin: 0 auto;
+ margin-bottom: 180px;
+ 
+}
+
+.card_box{
+   display: flex;
+   justify-content: space-between;
+  } 
+  
+  #card_contant{
+  border: 2px solid #FF900E;
+  border-radius: 8px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.number{
+  font-size: 35px;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.title{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Sponspor_aera style */
+.Sponspor_info{
+  margin-bottom: 50px;
+  border: 1px solid red;
+  text-align: center;
+}
+
+.sponspor_title{
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.sponspor_description{
+  color: #727272;
+  font-size: 16px;
+}
+
+
+.sponspor_company{
+  display: flex;
+  margin-bottom: 130px;
+  justify-content: space-between;
+  filter: grayscale(100%);
+}
+
+
+/* footer area */
+footer{
+  margin-bottom: 216px;
+  text-align: center;
+}
+.footer_container{
+  background-color: #FFF4E7;
+  height: 80px;
+  width: 1340px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+.footer_container p{
+  align-items: center;
+  padding-top: 39px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Responsive for small device */
@@ -131,6 +316,7 @@ main > section{
   margin: 4px;
   box-shadow: 1px 1px 10px 3px #000;
  }
+
  .our-features{
         margin-left: 20px;
         margin-top: 10px;
